@@ -1,4 +1,4 @@
-# 🚀 Fin Quest India
+# FinXplore 
 
 **Master Financial Markets with Interactive Learning & Gamification**
 
@@ -9,22 +9,22 @@ Fin Quest India is a comprehensive financial education platform designed specifi
 
 MADE BY - PIYUSH SINGH ( https://www.linkedin.com/in/piyush-singh-023507359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app  )
  &        Azzah-mallick ( https://www.linkedin.com/in/azzah-mallick-6192b21b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )
-## 📋 Table of Contents
+## Table of Contents
 
-- [🎯 Features](#-features)
-- [🏗️ Tech Stack](#️-tech-stack)
-- [🚀 Getting Started](#-getting-started)
-- [📚 Learning Modules](#-learning-modules)
-- [🎮 Gamification System](#-gamification-system)
-- [📱 Pages & Navigation](#-pages--navigation)
-- [🛠️ Development](#️-development)
-- [🚀 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Getting Started](#-getting-started)
+- [Learning Modules](#-learning-modules)
+- [Gamification System](#-gamification-system)
+- [Pages & Navigation](#-pages--navigation)
+- [Development](#️-development)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-## 🎯 Features
+## Features
 
-### 🎓 **Comprehensive Learning Modules**
+### **Comprehensive Learning Modules**
 - **Stocks 101**: Master NSE/BSE fundamentals and analysis techniques
 - **Crypto Fundamentals**: Navigate blockchain, wallets, and India-specific regulations
 - **Options Trading**: Learn calls, puts, Greeks, and hedging strategies
@@ -32,54 +32,54 @@ MADE BY - PIYUSH SINGH ( https://www.linkedin.com/in/piyush-singh-023507359?utm_
 - **Scam Awareness**: Protect against fake apps and social engineering
 - **Mutual Funds & SIPs**: Systematic wealth building strategies
 
-### 🏆 **Gamification System**
+### **Gamification System**
 - **XP & Leveling**: Earn experience points and level up
 - **Achievement Notifications**: Celebrate learning milestones
 - **Progress Tracking**: Visual progress bars and completion status
 - **Leaderboard**: Compete with other learners
 - **Animated Rewards**: Engaging visual feedback
 
-### 🎮 **Interactive Features**
+### **Interactive Features**
 - **Real-time Simulations**: Practice trading without risk
 - **Interactive Quizzes**: Test your knowledge with immediate feedback
 - **Progress Animations**: Smooth, engaging UI transitions
 - **User Profiles**: Track your learning journey
 - **Community Features**: Connect with fellow learners
 
-### 🔒 **Security & Compliance**
+### **Security & Compliance**
 - **Firebase Authentication**: Secure user management
 - **SEBI Compliance**: India-specific financial regulations
 - **Data Privacy**: User data protection
 - **Secure Payments**: Safe transaction processing
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### **Frontend**
-- ⚛️ **React 18.3.1** - Modern UI framework
-- 🔷 **TypeScript 5.8.3** - Type-safe development
-- ⚡ **Vite 5.4.19** - Fast build tool and dev server
-- 🎨 **Tailwind CSS 3.4.17** - Utility-first styling
-- 🧩 **shadcn/ui** - Beautiful, accessible components
+- **React 18.3.1** - Modern UI framework
+- **TypeScript 5.8.3** - Type-safe development
+- **Vite 5.4.19** - Fast build tool and dev server
+- **Tailwind CSS 3.4.17** - Utility-first styling
+- **shadcn/ui** - Beautiful, accessible components
 
 ### **UI Components & Libraries**
-- 🎭 **Framer Motion 12.23.24** - Smooth animations
-- 📊 **Recharts 2.15.4** - Data visualization
-- 🎯 **Radix UI** - Headless UI primitives
-- 🎨 **Lucide React** - Beautiful icons
-- 📝 **React Hook Form** - Form management
-- 🗂️ **React Router DOM** - Client-side routing
+- **Framer Motion 12.23.24** - Smooth animations
+- **Recharts 2.15.4** - Data visualization
+- **Radix UI** - Headless UI primitives
+- **Lucide React** - Beautiful icons
+- **React Hook Form** - Form management
+- **React Router DOM** - Client-side routing
 
 ### **Backend & Data**
-- 🔥 **Firebase 12.4.0** - Authentication, database, hosting
-- 📡 **TanStack Query 5.83.0** - Server state management
-- 🔄 **React Query** - Data fetching and caching
+- **Firebase 12.4.0** - Authentication, database, hosting
+- **TanStack Query 5.83.0** - Server state management
+- **React Query** - Data fetching and caching
 
 ### **Development Tools**
-- 🧹 **ESLint** - Code linting
-- 🎨 **PostCSS** - CSS processing
-- 📦 **Autoprefixer** - CSS vendor prefixes
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixes
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -123,9 +123,9 @@ npm run preview      # Preview production build
 npm run lint         # Run ESLint
 ```
 
-## 📚 Learning Modules
+## Learning Modules
 
-### 📈 **Stocks 101**
+### **Stocks 101**
 - **Duration**: 45 minutes
 - **Difficulty**: Beginner
 - **Lessons**: 6 lessons
@@ -137,31 +137,31 @@ npm run lint         # Run ESLint
 - **Lessons**: 7 lessons
 - **Topics**: Blockchain, wallets, DeFi, NFTs, tax rules, scam prevention
 
-### 📊 **Options Trading**
+### **Options Trading**
 - **Duration**: 55 minutes
 - **Difficulty**: Intermediate
 - **Lessons**: 5 lessons
 - **Topics**: Calls/puts, strike prices, Greeks, hedging, F&O expiry
 
-### 💱 **Forex Trading**
+### **Forex Trading**
 - **Duration**: 48 minutes
 - **Difficulty**: Intermediate
 - **Lessons**: 5 lessons
 - **Topics**: Currency pairs, RBI rules, leverage, technical analysis
 
-### 🛡️ **Scam Awareness**
+### **Scam Awareness**
 - **Duration**: 70 minutes
 - **Difficulty**: Beginner
 - **Lessons**: 7 lessons
 - **Topics**: Fake apps, wallet drains, pump & dump, social engineering
 
-### 📊 **Mutual Funds & SIPs**
+### **Mutual Funds & SIPs**
 - **Duration**: 42 minutes
 - **Difficulty**: Beginner
 - **Lessons**: 5 lessons
 - **Topics**: SIP basics, fund types, expense ratios, tax saving
 
-## 🎮 Gamification System
+## Gamification System
 
 ### **XP & Leveling**
 - Earn XP for completing lessons and quizzes
@@ -178,19 +178,19 @@ npm run lint         # Run ESLint
 - Rank based on total XP and modules completed
 - Monthly and all-time rankings
 
-## 📱 Pages & Navigation
+## Pages & Navigation
 
-- **🏠 Home**: Landing page with featured modules
-- **📚 Learn**: Browse all learning modules
-- **🎮 Simulations**: Interactive trading practice
-- **🏆 Leaderboard**: Community rankings
-- **📋 Regulations**: SEBI and financial regulations
-- **👤 Profile**: User progress and achievements
-- **🎯 Challenges**: Special learning challenges
-- **📖 Resources**: Additional learning materials
-- **👥 Community**: Connect with other learners
+- **Home**: Landing page with featured modules
+- **Learn**: Browse all learning modules
+- **Simulations**: Interactive trading practice
+- **Leaderboard**: Community rankings
+- **Regulations**: SEBI and financial regulations
+- **Profile**: User progress and achievements
+- **Challenges**: Special learning challenges
+- **Resources**: Additional learning materials
+- **Community**: Connect with other learners
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 ```
@@ -247,10 +247,10 @@ npm run build
 npm run deploy:netlify
 ```
 
-### 📖 Detailed Deployment Guide
+### Detailed Deployment Guide
 For complete deployment instructions, environment setup, and troubleshooting, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
-### 🔧 Environment Variables Required
+### Environment Variables Required
 Before deploying, set these environment variables in your hosting platform:
 
 ```bash
@@ -263,7 +263,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -279,11 +279,11 @@ We welcome contributions! Please follow these steps:
 - Test your changes thoroughly
 - Update documentation as needed
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **SEBI** - For regulatory guidelines and compliance
 - **NSE/BSE** - For market data and educational resources
