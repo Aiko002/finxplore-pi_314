@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "./", // 👈 ADD THIS LINE (important for Vercel)
   server: {
     host: "::",
     port: 8080,
@@ -15,4 +16,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: "dist", // 👈 optional, ensures Vercel serves the correct folder
+  },
 }));
+
