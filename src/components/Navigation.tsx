@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Zap, LogIn, LogOut } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
+import { useToast } from "@/hooks/use-toast";
 import { auth, googleProvider } from "@/lib/firebase";
 import {
   getRedirectResult,
@@ -14,6 +15,7 @@ import {
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { toast } = useToast();
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const location = useLocation();
 
@@ -39,15 +41,21 @@ const Navigation = () => {
 
   // Handle result if we used redirect sign-in (e.g., when popup is blocked)
   useEffect(() => {
-    getRedirectResult(auth).catch((err) => {
-      // Swallow redirect errors to avoid noisy logs in UI
-      console.warn("Redirect sign-in failed", err);
-    });
-  }, []);
+    getRedirectResult(auth)
+      .then((result) => {
+        if (result?.user) {
+          toast({ title: "Signed in", description: `Welcome ${result.user.displayName ?? "back"}!` });
+        }
+      })
+      .catch((err) => {
+        console.warn("Redirect sign-in failed", err);
+      });
+  }, [toast]);
 
   const handleSignIn = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
+      toast({ title: "Signed in", description: "Welcome!", });
     } catch (error) {
       // If popup fails (blocked or disallowed), fall back to redirect
       const message = (error as { code?: string }).code ?? "";
@@ -58,9 +66,12 @@ const Navigation = () => {
           return;
         } catch (redirectError) {
           console.error("Sign-in redirect failed", redirectError);
+          toast({ title: "Sign-in failed", description: "Please try again.", });
         }
       } else {
         console.error("Sign-in failed", error);
+        const friendly = (error as { code?: string }).code ?? "unknown";
+        toast({ title: "Sign-in error", description: friendly.replaceAll("auth/", ""), });
       }
     }
   };
@@ -68,8 +79,10 @@ const Navigation = () => {
   const handleSignOut = async () => {
     try {
       await signOut(auth);
+      toast({ title: "Signed out", description: "You have been signed out.", });
     } catch (error) {
       console.error("Sign-out failed", error);
+      toast({ title: "Sign-out failed", description: "Please try again.", });
     }
   };
 
